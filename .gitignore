@@ -12,6 +12,10 @@ __pycache__/
 # C extensions
 *.so
 
+# static files
+minecraft/static/*/*
+!minecraft/static/*/.gitkeep
+
 # Distribution / packaging
 .Python
 build/
